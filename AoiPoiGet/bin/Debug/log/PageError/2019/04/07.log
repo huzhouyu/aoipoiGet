@@ -1,0 +1,390 @@
+
+--------------------------网站运行日志--------------------------
+
+
+
+--------------------------网站运行日志--------------------------
+
+
+
+--------------------------网站运行日志--------------------------
+
+2019-04-07 00:22:51,831 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府及社会团体相关-政府及社会团体相关-安徽省-芜湖市-鸠江区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:22:52,003 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府及社会团体相关-政府及社会团体相关-安徽省-芜湖市-三山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:23:23,436 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府及社会团体相关-政府及社会团体相关-安徽省-蚌埠市-禹会区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:23:25,043 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府及社会团体相关-政府及社会团体相关-安徽省-蚌埠市-怀远县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:23:42,389 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府及社会团体相关-政府及社会团体相关-安徽省-淮南市-大通区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:24:53,617 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-政府机关相关-安徽省-芜湖市-三山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:25:11,692 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-政府机关相关-安徽省-蚌埠市-龙子湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:25:15,887 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-政府机关相关-安徽省-蚌埠市-怀远县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:07,637 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-国家级机关及事业单位-安徽省-淮南市-淮南市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:08,246 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-国家级机关及事业单位-安徽省-淮南市-寿县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:14,182 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-地市级政府及事业单位-安徽省-芜湖市-三山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:15,969 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-地市级政府及事业单位-安徽省-蚌埠市-龙子湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:27,571 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-区县级政府及事业单位-安徽省-芜湖市-镜湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:29,225 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-区县级政府及事业单位-安徽省-芜湖市-繁昌县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:46,726 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-区县级政府及事业单位-安徽省-池州市-石台县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:51,865 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇级政府及事业单位-安徽省-芜湖市-鸠江区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:51,998 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇级政府及事业单位-安徽省-芜湖市-三山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:57,527 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇级政府及事业单位-安徽省-蚌埠市-龙子湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:57,863 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇级政府及事业单位-安徽省-蚌埠市-禹会区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:26:58,233 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇级政府及事业单位-安徽省-蚌埠市-怀远县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:20,826 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-芜湖市-弋江区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:20,992 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-芜湖市-鸠江区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:21,679 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-芜湖市-繁昌县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:26,210 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-蚌埠市-龙子湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:26,840 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-蚌埠市-禹会区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:27,181 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-蚌埠市-怀远县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:27,320 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-蚌埠市-五河县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:27,470 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-蚌埠市-固镇县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:32,851 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-淮南市-大通区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:34,567 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-淮南市-八公山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:27:35,180 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-淮南市-凤台县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:02,118 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-芜湖市-鸠江区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:05,222 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-芜湖市-三山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:05,367 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-芜湖市-芜湖县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:06,034 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-芜湖市-无为县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:09,107 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-蚌埠市-禹会区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:09,373 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-蚌埠市-怀远县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:09,525 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-蚌埠市-五河县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:09,640 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-蚌埠市-固镇县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:12,263 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-淮南市-大通区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:13,653 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-淮南市-谢家集区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:14,004 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-淮南市-凤台县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:14,152 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-淮南市-寿县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:16,461 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-池州市-石台县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:21,210 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-少先队-安徽省-淮南市-淮南市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:21,809 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-少先队-安徽省-淮南市-凤台县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:23,887 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-妇联-安徽省-淮南市-淮南市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:24,569 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-妇联-安徽省-淮南市-寿县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:26,744 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-残联-安徽省-淮南市-淮南市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:27,541 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-残联-安徽省-淮南市-寿县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:35,199 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-行业协会-安徽省-芜湖市-芜湖县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:36,972 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-行业协会-安徽省-蚌埠市-怀远县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:37,100 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-行业协会-安徽省-蚌埠市-五河县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:38,195 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-行业协会-安徽省-淮南市-大通区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:38,641 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-行业协会-安徽省-淮南市-谢家集区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:38,880 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-行业协会-安徽省-淮南市-凤台县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:43,030 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-教会-安徽省-芜湖市-芜湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:43,537 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-教会-安徽省-芜湖市-三山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:44,648 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-教会-安徽省-淮南市-淮南市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:45,330 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-教会-安徽省-淮南市-寿县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:50,864 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-芜湖市-芜湖县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:51,645 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-芜湖市-南陵县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:55,650 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-蚌埠市-蚌山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:55,833 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-蚌埠市-禹会区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:28:56,383 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-蚌埠市-怀远县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:02,109 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-淮南市-大通区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:03,964 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-淮南市-谢家集区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:04,093 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-淮南市-八公山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:04,231 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-淮南市-潘集区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:11,441 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-芜湖市-镜湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:12,167 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-芜湖市-南陵县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:14,504 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-蚌埠市-蚌山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:14,652 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-蚌埠市-禹会区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:14,886 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-蚌埠市-怀远县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:18,182 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-淮南市-谢家集区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:18,315 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-淮南市-八公山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:18,449 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-淮南市-潘集区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:18,917 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-淮南市-寿县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:25,058 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-法院-安徽省-芜湖市-芜湖县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:26,529 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-法院-安徽省-淮南市-淮南市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:26,895 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-法院-安徽省-淮南市-大通区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:30,634 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-法院-安徽省-池州市-池州市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:31,037 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-法院-安徽省-池州市-贵池区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:31,372 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-消防机关-安徽省-芜湖市-芜湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:31,810 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-消防机关-安徽省-芜湖市-鸠江区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:31,952 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-消防机关-安徽省-芜湖市-芜湖县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:33,026 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-消防机关-安徽省-淮南市-淮南市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:33,638 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-消防机关-安徽省-淮南市-田家庵区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:34,730 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公证鉴定机构-安徽省-芜湖市-芜湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:35,324 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公证鉴定机构-安徽省-芜湖市-鸠江区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:38,184 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公证鉴定机构-安徽省-淮南市-寿县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:39,228 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-芜湖市-芜湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:39,557 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-芜湖市-镜湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:41,164 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-淮南市-淮南市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:41,654 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-淮南市-田家庵区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:41,820 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-淮南市-八公山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:41,924 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-淮南市-潘集区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:42,090 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-淮南市-凤台县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:42,178 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-淮南市-寿县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:43,177 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-芜湖市-芜湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:43,637 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-芜湖市-镜湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:44,022 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-芜湖市-三山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:44,610 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-芜湖市-无为县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:46,106 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-蚌埠市-淮上区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:47,668 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-淮南市-大通区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:48,962 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-池州市-池州市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:49,460 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-池州市-贵池区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:51,251 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通管理机构-安徽省-芜湖市-鸠江区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:51,348 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通管理机构-安徽省-芜湖市-三山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:56,802 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-车辆管理机构-安徽省-蚌埠市-蚌埠市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:57,340 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-车辆管理机构-安徽省-蚌埠市-淮上区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:58,534 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-车辆管理机构-安徽省-池州市-池州市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:58,865 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-车辆管理机构-安徽省-池州市-贵池区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:29:59,197 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-验车场-安徽省-芜湖市-芜湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:00,068 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-验车场-安徽省-芜湖市-无为县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:00,191 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-验车场-安徽省-蚌埠市-蚌埠市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:00,664 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-验车场-安徽省-蚌埠市-淮上区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:11,826 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-工商税务机构-安徽省-芜湖市-镜湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:13,454 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-工商税务机构-安徽省-蚌埠市-龙子湖区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:14,064 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-工商税务机构-安徽省-蚌埠市-固镇县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:16,275 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-工商税务机构-安徽省-池州市-贵池区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:16,397 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-工商税务机构-安徽省-池州市-东至县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:16,506 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-工商税务机构-安徽省-池州市-石台县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:16,658 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-工商税务机构-安徽省-池州市-青阳县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:23,210 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-国税机关-安徽省-池州市-池州市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-04-07 00:30:23,537 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-工商税务机构-国税机关-安徽省-池州市-东至县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+

@@ -1,0 +1,12 @@
+
+--------------------------网站运行日志--------------------------
+
+2019-03-21 20:58:30,295 [1] ERROR PageError [(null)] - 请求购物服务-特色商业街-特色商业街-安徽省-合肥市-庐江县-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 42 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 42 
+
+

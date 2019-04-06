@@ -1,0 +1,9 @@
+
+--------------------------网站运行日志--------------------------
+
+2019-03-25 10:03:34,670 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+2019-03-25 11:58:54,147 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-25 13:07:41,627 [1] ERROR PageError [(null)] - 操作超时 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 

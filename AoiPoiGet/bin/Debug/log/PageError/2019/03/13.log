@@ -1,0 +1,329 @@
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 11:48:56,329 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+2019-03-13 11:48:56,932 [1] ERROR PageError [(null)] - 请求商务住宅-商务住宅相关-商务住宅相关-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 11:48:57,478 [1] ERROR PageError [(null)] - 请求商务住宅-商务住宅相关-商务住宅相关-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 11:48:57,987 [1] ERROR PageError [(null)] - 请求商务住宅-商务住宅相关-商务住宅相关-安徽省-合肥市-庐阳区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 11:48:58,205 [1] ERROR PageError [(null)] - 请求商务住宅-产业园区-产业园区-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 11:48:58,718 [1] ERROR PageError [(null)] - 请求商务住宅-产业园区-产业园区-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 11:49:33,482 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-工业大厦建筑物-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 11:49:35,645 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-商住两用楼宇-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 11:57:20,895 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 12:03:06,452 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 13:01:57,216 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+2019-03-13 13:01:57,730 [1] ERROR PageError [(null)] - 请求商务住宅-商务住宅相关-商务住宅相关-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 13:01:58,214 [1] ERROR PageError [(null)] - 请求商务住宅-商务住宅相关-商务住宅相关-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 13:01:58,739 [1] ERROR PageError [(null)] - 请求商务住宅-商务住宅相关-商务住宅相关-安徽省-合肥市-庐阳区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 13:01:58,931 [1] ERROR PageError [(null)] - 请求商务住宅-产业园区-产业园区-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 13:01:59,393 [1] ERROR PageError [(null)] - 请求商务住宅-产业园区-产业园区-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 13:02:26,307 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-工业大厦建筑物-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 13:02:28,240 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-商住两用楼宇-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 13:02:59,129 [1] ERROR PageError [(null)] - 请求商务住宅-住宅区-别墅-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 13:03:30,156 [1] ERROR PageError [(null)] - 请求商务住宅-住宅区-宿舍-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 13:03:32,670 [1] ERROR PageError [(null)] - 请求商务住宅-住宅区-社区中心-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 13:04:57,579 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 16:25:58,576 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+2019-03-13 16:25:59,245 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 16:28:51,245 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 16:57:36,131 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+2019-03-13 16:58:51,262 [1] ERROR PageError [(null)] - 请求住宿服务-住宿服务相关-住宿服务相关-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 16:59:56,994 [1] ERROR PageError [(null)] - 请求住宿服务-宾馆酒店-宾馆酒店-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:00:23,769 [1] ERROR PageError [(null)] - 请求住宿服务-旅馆招待所-旅馆招待所-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:00:47,612 [1] ERROR PageError [(null)] - 请求住宿服务-旅馆招待所-旅馆招待所-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:01:24,205 [1] ERROR PageError [(null)] - 请求商务住宅-商务住宅相关-商务住宅相关-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:01:43,867 [1] ERROR PageError [(null)] - 请求商务住宅-产业园区-产业园区-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:01:45,333 [1] ERROR PageError [(null)] - 请求商务住宅-产业园区-产业园区-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:01:48,743 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-楼宇相关-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:01:48,858 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-楼宇相关-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:01:49,324 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-楼宇相关-安徽省-合肥市-肥西县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:01:55,852 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-商务写字楼-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:01:56,372 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-商务写字楼-安徽省-合肥市-肥西县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:01:57,103 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-工业大厦建筑物-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:01:58,088 [1] ERROR PageError [(null)] - 请求商务住宅-楼宇-商住两用楼宇-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:02:31,666 [1] ERROR PageError [(null)] - 请求商务住宅-住宅区-别墅-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:02:48,799 [1] ERROR PageError [(null)] - 请求商务住宅-住宅区-住宅小区-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:03:02,081 [1] ERROR PageError [(null)] - 请求商务住宅-住宅区-宿舍-安徽省-合肥市-肥西县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:03:03,585 [1] ERROR PageError [(null)] - 请求商务住宅-住宅区-社区中心-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:04:03,201 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府及社会团体相关-政府及社会团体相关-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:04:23,600 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府及社会团体相关-政府及社会团体相关-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:04:23,780 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府及社会团体相关-政府及社会团体相关-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:04:48,397 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-政府机关相关-安徽省-合肥市-蜀山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:04:48,565 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-政府机关相关-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:05:06,651 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-政府机关相关-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:05:06,817 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-政府机关相关-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:05:11,806 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-省直辖市级政府及事业单位-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:05:17,045 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-地市级政府及事业单位-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:05:29,125 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-区县级政府及事业单位-安徽省-合肥市-肥西县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:05:30,046 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-区县级政府及事业单位-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:05:50,620 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇级政府及事业单位-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:04,200 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:18,693 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:06:18,873 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-乡镇以下级政府及事业单位-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:31,768 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-合肥市-肥东县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:31,935 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-合肥市-肥西县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:32,070 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:32,326 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-社会团体相关-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:06:33,955 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-妇联-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:34,756 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-妇联-安徽省-合肥市-肥西县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:35,041 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-残联-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:35,634 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-残联-安徽省-合肥市-蜀山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:45,297 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-社会团体-行业协会-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:48,821 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:06:52,044 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-合肥市-蜀山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:52,199 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:53,074 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-合肥市-肥东县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:06:53,664 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:53,802 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公检法机关-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:57,844 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-合肥市-蜀山区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:57,969 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:58,726 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:06:58,854 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:01,832 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-法院-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:02,171 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-消防机关-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:07:02,979 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-消防机关-安徽省-合肥市-肥东县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:03,394 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公证鉴定机构-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:03,809 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公证鉴定机构-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:04,087 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公证鉴定机构-安徽省-合肥市-庐阳区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:07:05,680 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:06,062 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:07,023 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:07,122 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-社会治安机构-安徽省-合肥市-巢湖市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:07,296 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:07,743 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:08,454 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.GetPageData(String fileName, Citys city, Scenes scene, Double count) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 53 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 53 
+
+2019-03-13 17:07:08,597 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:09,252 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:09,711 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通管理机构-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:10,119 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通管理机构-安徽省-合肥市-瑶海区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:11,293 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通管理机构-安徽省-合肥市-庐江县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:11,627 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-车辆管理机构-安徽省-合肥市-合肥市-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:12,357 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-车辆管理机构-安徽省-合肥市-长丰县-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+2019-03-13 17:07:13,728 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-验车场-安徽省-合肥市-包河区-POI数据：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
+
+
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 18:50:11,158 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 
+
+
+
+--------------------------网站运行日志--------------------------
+
+2019-03-13 19:03:20,283 [1] ERROR PageError [(null)] - 读取场景配置文件：System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AoiPoiGet.AppConst.GetConfigScenes() 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs:行号 68 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AppConst.cs 68 

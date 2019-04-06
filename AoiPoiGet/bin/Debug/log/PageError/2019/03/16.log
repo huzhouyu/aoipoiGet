@@ -1,0 +1,326 @@
+
+--------------------------网站运行日志--------------------------
+
+2019-03-16 01:28:08,435 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:08,671 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:08,902 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:09,156 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:09,355 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:09,587 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:09,809 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:10,028 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:10,244 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:10,464 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:10,702 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:10,954 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:11,171 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:11,439 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:11,660 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:11,872 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:12,110 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:12,332 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:12,626 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:12,855 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:13,109 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:13,349 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:13,572 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:13,812 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:14,033 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:14,250 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:14,465 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:14,703 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:14,931 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:15,151 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:15,355 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:15,642 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:15,854 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:16,074 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:16,328 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:16,547 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:16,794 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:17,012 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:17,237 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:17,484 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:17,697 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:17,921 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:18,182 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:18,422 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:18,657 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:19,064 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:19,266 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:19,481 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:19,700 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:19,957 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:20,220 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:20,472 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:20,700 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:20,951 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:21,174 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:21,420 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:21,636 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:21,854 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:22,114 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:22,309 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:22,532 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:22,769 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:22,996 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:23,252 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:23,481 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:23,751 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:23,972 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:24,203 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:24,454 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:24,688 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:24,921 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:25,160 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:25,407 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:25,623 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:25,827 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:26,078 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:26,328 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:26,546 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:26,798 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:27,000 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:27,214 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:27,434 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:27,655 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:27,874 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:28,099 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:28,351 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:28,616 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:28,833 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:29,075 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:29,301 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:29,595 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:29,814 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:30,028 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:30,266 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:30,496 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:30,766 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:30,982 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:31,253 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:31,482 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:31,720 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:31,938 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:32,190 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:32,405 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:32,622 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:32,877 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:33,093 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:33,329 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:33,612 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:33,825 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:34,052 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:34,298 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:34,511 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:34,735 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:34,988 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:35,221 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:35,444 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:35,655 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:35,873 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:36,126 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:36,347 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:36,593 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:36,816 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:37,039 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:37,300 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:37,572 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:37,777 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:38,002 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:38,235 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:38,482 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:38,736 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:38,977 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:39,236 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:39,471 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:39,719 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:39,973 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:40,185 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:40,437 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:40,689 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:40,906 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:41,121 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:41,343 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:41,596 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:41,829 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:42,060 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:42,281 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:42,527 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:42,750 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:43,005 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:43,235 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:43,503 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:43,732 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:43,972 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:44,186 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:44,402 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:44,622 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 01:28:44,874 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-16 02:31:54,617 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-政府机关-政府机关相关-安徽省-合肥市-肥西县-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-16 09:22:37,701 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+

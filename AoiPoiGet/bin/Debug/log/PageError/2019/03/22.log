@@ -1,0 +1,60 @@
+
+--------------------------网站运行日志--------------------------
+
+2019-03-22 04:03:43,284 [1] ERROR PageError [(null)] - 请求购物服务-家电电子卖场-数码电子-安徽省-合肥市-合肥市-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-22 04:05:48,210 [1] ERROR PageError [(null)] - 请求购物服务-家电电子卖场-数码电子-安徽省-合肥市-蜀山区-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-22 12:07:28,707 [1] ERROR PageError [(null)] - 请求公司企业-知名企业-知名企业-安徽省-合肥市-合肥市-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-22 12:08:29,143 [1] ERROR PageError [(null)] - 请求公司企业-知名企业-知名企业-安徽省-合肥市-包河区-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 42 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 42 
+
+2019-03-22 12:09:33,402 [1] ERROR PageError [(null)] - 请求体育休闲服务-运动场馆-综合体育馆-安徽省-合肥市-合肥市-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-22 16:30:09,049 [1] ERROR PageError [(null)] - 请求体育休闲服务-休闲场所-游乐场-安徽省-合肥市-合肥市-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-22 16:39:09,512 [1] ERROR PageError [(null)] - 请求体育休闲服务-休闲场所-游乐场-安徽省-合肥市-蜀山区-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+

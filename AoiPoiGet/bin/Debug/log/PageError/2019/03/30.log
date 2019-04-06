@@ -1,0 +1,56 @@
+
+--------------------------网站运行日志--------------------------
+
+2019-03-30 07:10:16,859 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-公安警察-安徽省-宿州市-宿州市-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-30 08:05:38,245 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-公检法机构-法院-安徽省-六安市-裕安区-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-30 09:30:36,144 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-阜阳市-颍州区-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-30 09:42:41,893 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-宿州市-宿州市-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-30 09:50:02,894 [1] ERROR PageError [(null)] - 请求政府机构及社会团体-交通车辆管理-交通车辆管理相关-安徽省-宿州市-灵璧县-AOI数据：System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0)
+   在 AoiPoiGet.AOIAction.SaveAOI(List`1 aois, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 132
+   在 AoiPoiGet.AOIAction.RequestAOI(List`1 ids, String fileName) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 65
+   在 AoiPoiGet.AOIAction.GetAOI(String fileName, Citys city, Scenes scene) 位置 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 31 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\AOIAction.cs 31 
+
+2019-03-30 12:47:23,449 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-30 12:47:27,994 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-30 12:47:28,591 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-30 12:47:29,130 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-30 12:47:36,916 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-30 12:47:44,581 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+

@@ -1,0 +1,32 @@
+
+--------------------------网站运行日志--------------------------
+
+2019-03-19 22:32:51,645 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:32:52,153 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:32:53,272 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:32:54,070 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:01,581 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:02,551 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:03,311 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:04,638 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:05,881 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:06,939 [1] ERROR PageError [(null)] - 基础连接已经关闭: 连接被意外关闭。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:07,915 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:08,891 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:13,905 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+2019-03-19 22:33:14,876 [1] ERROR PageError [(null)] - 基础连接已经关闭: 发送时发生错误。 e:\高德POI&AOI数据过去\AoiPoiGet\AoiPoiGet\HttpUtil.cs 91 
+
+
