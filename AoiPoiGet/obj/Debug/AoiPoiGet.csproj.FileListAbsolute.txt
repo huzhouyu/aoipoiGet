@@ -31,7 +31,6 @@ D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\bin\Debug\AoiPoiGet.pdb
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\bin\Debug\Newtonsoft.Json.dll
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\bin\Debug\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
-D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\AoiPoiGet.csprojFakesResolveAssemblyReference.cache
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\Interop.SHDocVw.dll
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\AoiPoiGet.csproj.ResolveComReference.cache
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\AoiPoiGet.csproj.CoreCompileInputs.cache

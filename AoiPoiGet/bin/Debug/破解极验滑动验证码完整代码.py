@@ -29,23 +29,28 @@ class HuXiu(object):
             WebDriverWait(self.driver, 10, 0.5).until(EC.element_to_be_clickable((By.XPATH, '//div[@class="gt_slider_knob gt_show"]')))
 
             # 进入模拟拖动流程
-            self.analog_drag()
+            self.analog_drag(0)
         except :
             self.driver.close()
             self.driver.quit()
             self.driver.service.stop()
 
-    def analog_drag(self):
+    def analog_drag(self,count):
         #鼠标移动到拖动按钮，显示出拖动图片
         try:
+            if(count>5):
+                self.driver.close()
+                self.driver.quit()
+                self.driver.service.stop()
+                return
             element = self.driver.find_element_by_xpath('//div[@class="gt_slider_knob gt_show"]')
             ActionChains(self.driver).move_to_element(element).perform()
-            time.sleep(3)
+            time.sleep(1)
 
             # 刷新一下极验图片
             element = self.driver.find_element_by_xpath('//a[@class="gt_refresh_button"]')
             element.click()
-            time.sleep(1)
+            time.sleep(0.5)
 
             # 获取图片地址和位置坐标列表
             cut_image_url, cut_location = self.get_image_url('//div[@class="gt_cut_bg_slice"]')
@@ -67,8 +72,11 @@ class HuXiu(object):
 
             # 如果出现error
             try:
-                WebDriverWait(self.driver, 5, 0.5).until(EC.element_to_be_clickable((By.XPATH, '//div[@class="gt_ajax_tip gt_error"]')))
+                WebDriverWait(self.driver, 3, 0.5).until(EC.element_to_be_clickable((By.XPATH, '//div[@class="gt_ajax_tip gt_error"]')))
                 print("验证失败")
+                self.driver.close()
+                self.driver.quit()
+                self.driver.service.stop()
                 return
             except TimeoutException as e:
                 pass
@@ -78,9 +86,10 @@ class HuXiu(object):
                 WebDriverWait(self.driver, 10, 0.5).until(EC.element_to_be_clickable((By.XPATH, '//section[@class="search"]')))
             except TimeoutException:
                 print("again times")
-                time.sleep(5)
+                time.sleep(3)
                 # 失败后递归执行拖动
-                self.analog_drag()
+                count=count+1
+                self.analog_drag(count)
             else:
                 # 成功后输入手机号，发送验证码
                 self.driver.close()
