@@ -198,19 +198,20 @@ namespace AoiPoiGet
                         {
                             if (bo)
                             {
+                                bo = false;
                                 //向cmd窗口发送输入信息
                                 p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://www.amap.com/place/B0FFG7R3O4");
                                 p.StandardInput.WriteLine("exit");
-                                bo = false;
                             }
                         }
                         else
                         {
                             if (bo1)
                             {
-                                //向cmd窗口发送输入信息
-                                p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://ditu.amap.com/search?query=酒店&city=310000" + "&exit");
                                 bo1 = false;
+                                //向cmd窗口发送输入信息
+                                p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://ditu.amap.com/search?query=酒店&city=310000");
+                                p.StandardInput.WriteLine("exit");
                             }
                         }
 
