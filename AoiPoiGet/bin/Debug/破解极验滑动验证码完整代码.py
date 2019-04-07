@@ -179,15 +179,15 @@ class HuXiu(object):
         while distance > 0:
             if distance > 40:
                 # 如果距离大于10，就让他移动快一点
-                span = random.randint(10, 15)
+                span = random.randint(1, 5)
             elif distance>10:
-                span = random.randint(5, 8)
+                span = random.randint(1, 3)
             else:
                 # 快到缺口了，就移动慢一点
-                span = random.randint(2, 3)
+                span = random.randint(1, 2)
             ActionChains(self.driver).move_by_offset(span, random.randint(5, 8)).perform()
             distance -= span
-            time.sleep(random.randint(10, 30)/100)
+            time.sleep(random.randint(5, 15)/100)
         
         ActionChains(self.driver).move_by_offset(distance, random.randint(5, 8)).perform()
         ActionChains(self.driver).release(on_element=element).perform()
