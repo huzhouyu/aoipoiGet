@@ -11,5 +11,6 @@ namespace AoiPoiGet.Model
     {
         public string FilePath { get; set; }
         public AutoResetEvent Wait { get; set; }
+        public int OverTimes { get; set; }
     }
 }

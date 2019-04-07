@@ -13,9 +13,11 @@ namespace AoiPoiGet
 
     public static class AOIAction
     {
+        static object LockObj = new object();
         static List<string> allIds = new List<string>();
         static List<string> urlList = new List<string> { "https://ditu.amap.com/detail/get/detail?id={0}", "https://www.amap.com/detail/get/detail?id={0}" };
-        public static int OverTimes = 1;
+        static int isNowDoYanzhengMa = 0;
+
         public static void GetAOI(object obj)
         {
             var tmp = (ThreadPameM)obj;
@@ -23,15 +25,18 @@ namespace AoiPoiGet
             try
             {
                 string poiFileName = fileName.Replace("-AOI", "");
-                if (!File.Exists(poiFileName)) return;
-                List<string> ids = Getids(poiFileName);
+                if (!File.Exists(poiFileName))
+                {
+                    tmp.Wait.Set();
+                    return;
+                }                List<string> ids = Getids(poiFileName);
                 List<string> needWre = Getids(poiFileName);
                 List<string> HttpUnit = new List<string>();
-                var tmpFile = fileName.Replace("-AOI", $"-OVER{OverTimes}");
+                var tmpFile = fileName.Replace("-AOI", $"-OVER{tmp.OverTimes}");
                 //创建文件
                 if (!File.Exists(fileName))
                     File.Create(fileName).Dispose();
-                if (File.Exists(tmpFile)&& IsAoiDataGood(fileName))
+                if (File.Exists(tmpFile)&& IsAoiDataGood(fileName, tmp.OverTimes))
                 {
                     allIds.AddRange(Getids(tmpFile));
                 }
@@ -190,7 +195,7 @@ namespace AoiPoiGet
                     failDic[boo]++;
                     if (failDic[boo] > 0)
                     {
-                        System.Diagnostics.Process[] processList = System.Diagnostics.Process.GetProcesses();
+                        //System.Diagnostics.Process[] processList = System.Diagnostics.Process.GetProcesses();
 
 
                         System.Diagnostics.Process p = new System.Diagnostics.Process();
@@ -200,30 +205,39 @@ namespace AoiPoiGet
                         p.StartInfo.RedirectStandardOutput = true;//由调用程序获取输出信息
                         p.StartInfo.RedirectStandardError = true;//重定向标准错误输出
                         p.StartInfo.CreateNoWindow = true;//不显示程序窗口
-                        p.Start();//启动程序
-
-                        if(boo)
+                        lock (LockObj)
                         {
-                            if (bo||i/4==0)
+                            if (isNowDoYanzhengMa % 10 == 0)
                             {
-                                bo = false;
-                                //向cmd窗口发送输入信息
-                                p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://www.amap.com/place/B0FFG7R3O4");
-                                p.StandardInput.WriteLine("exit");
+                                isNowDoYanzhengMa = 0;
+                                if (boo)
+                                {
+                                    if (bo || i / 4 == 0)
+                                    {
+                                        bo = false;
+                                        p.Start();//启动程序
+                                                  //向cmd窗口发送输入信息
+                                        p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://www.amap.com/place/B0FFG7R3O4");
+                                        p.StandardInput.WriteLine("exit");
+                                    }
+
+                                }
+                                else
+                                {
+                                    if (bo1 || i / 4 == 0)
+                                    {
+                                        bo1 = false;
+                                        p.Start();//启动程序
+                                                  //向cmd窗口发送输入信息
+                                        p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://ditu.amap.com/search?query=酒店&city=310000");
+                                        p.StandardInput.WriteLine("exit");
+                                    }
+                                }
+                                Thread.Sleep(30000);
                             }
-                        }
-                        else
-                        {
-                            if (bo1 || i / 4 == 0)
-                            {
-                                bo1 = false;
-                                //向cmd窗口发送输入信息
-                                p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://ditu.amap.com/search?query=酒店&city=310000");
-                                p.StandardInput.WriteLine("exit");
-                            }
+                            isNowDoYanzhengMa++;
                         }
 
-                        Thread.Sleep(30000);
                     }
                     httpUrl = string.Format(urlList[random.Next(urlList.Count)], id);
                     Console.WriteLine($"第{i}次尝试查询，请用web访问 https://ditu.amap.com/search?query=酒店&city=310000 和 https://www.amap.com  完成认证");
@@ -289,7 +303,7 @@ namespace AoiPoiGet
                 new Log().PageLog.Error(string.Format("保存AOI数据：{0}", ex));
             }
         }
-        public static bool IsAoiDataGood(string filePath)
+        public static bool IsAoiDataGood(string filePath,int OverTimes)
         {
             StreamReader reader = File.OpenText(filePath);
             var t= reader.ReadToEnd();

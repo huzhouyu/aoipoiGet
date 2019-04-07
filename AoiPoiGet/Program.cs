@@ -14,7 +14,7 @@ namespace AoiPoiGet
 {
     class Program
     {
-        [STAThread]
+        //[STAThread]
         static void Main(string[] args)
         {
 
@@ -66,12 +66,12 @@ namespace AoiPoiGet
             }
             if (AppConst.IsDownAOI == "是")
             {
-                ThreadPool.SetMaxThreads(5, 5);
+                ThreadPool.SetMaxThreads(5, 10);
+                ThreadPool.SetMinThreads(3, 10);
                 List<WaitHandle> waitHandles =new List<WaitHandle>();
                 Console.WriteLine("开始下载AOI数据.....");
                 for (int i = 0; i < AppConst.DownAOITimes; i++)
                 {
-                    AOIAction.OverTimes = i + 1;
                     foreach (Scenes scene in scens)
                     {
                         foreach (Citys city in citys)
@@ -90,7 +90,7 @@ namespace AoiPoiGet
                                     waitHandles = new List<WaitHandle>();
                                 }
                                 AutoResetEvent wh = new AutoResetEvent(false);
-                                ThreadPameM pameM = new ThreadPameM() { FilePath = fileName, Wait = wh };
+                                ThreadPameM pameM = new ThreadPameM() { FilePath = fileName, Wait = wh,OverTimes=i+1 };
                                 ThreadPool.QueueUserWorkItem(new WaitCallback(AOIAction.GetAOI), pameM);
                                 waitHandles.Add(wh);
                             }
