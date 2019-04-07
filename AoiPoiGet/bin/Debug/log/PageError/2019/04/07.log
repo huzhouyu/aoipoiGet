@@ -388,3 +388,1529 @@
    在 AoiPoiGet.POIAction.DownPoiData(String fileName, Citys city, Scenes scene) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs:行号 25 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\POIAction.cs 25 
 
 
+
+--------------------------网站运行日志--------------------------
+
+2019-04-07 19:49:34,447 [1] ERROR PageError [(null)] - 请求B02290I9F9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:34,563 [1] ERROR PageError [(null)] - 请求B02290HXZA-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:34,725 [1] ERROR PageError [(null)] - 请求B022900307-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:34,824 [1] ERROR PageError [(null)] - 请求B022900840-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:34,935 [1] ERROR PageError [(null)] - 请求B022900878-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,038 [1] ERROR PageError [(null)] - 请求B02290I28B-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,173 [1] ERROR PageError [(null)] - 请求B02290I9C9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,229 [1] ERROR PageError [(null)] - 请求B02290I28D-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,335 [1] ERROR PageError [(null)] - 请求B0FFFGVZ9O-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,435 [1] ERROR PageError [(null)] - 请求B022900ROI-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,531 [1] ERROR PageError [(null)] - 请求B0FFFYLQBI-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,632 [1] ERROR PageError [(null)] - 请求B02290I9S8-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,746 [1] ERROR PageError [(null)] - 请求B02290HVIC-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,844 [1] ERROR PageError [(null)] - 请求B02290I9SE-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:35,955 [1] ERROR PageError [(null)] - 请求B02290I8VJ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,036 [1] ERROR PageError [(null)] - 请求B02290I6XG-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,091 [1] ERROR PageError [(null)] - 请求B022900NHL-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,193 [1] ERROR PageError [(null)] - 请求B0FFFSACUK-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,278 [1] ERROR PageError [(null)] - 请求B0FFGN3WKX-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,374 [1] ERROR PageError [(null)] - 请求B0229156MZ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,426 [1] ERROR PageError [(null)] - 请求B0FFIA5GRT-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,603 [1] ERROR PageError [(null)] - 请求B0FFGBMHCM-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,681 [1] ERROR PageError [(null)] - 请求B0FFGBKJPO-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,777 [1] ERROR PageError [(null)] - 请求B0FFF2GRQJ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,878 [1] ERROR PageError [(null)] - 请求B0FFG0MNGW-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:36,982 [1] ERROR PageError [(null)] - 请求B0FFH2Q560-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,095 [1] ERROR PageError [(null)] - 请求B0FFHWYOE9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,294 [1] ERROR PageError [(null)] - 请求B022800N4U-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,360 [1] ERROR PageError [(null)] - 请求B0FFHDN9Y5-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,461 [1] ERROR PageError [(null)] - 请求B022801LB0-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,571 [1] ERROR PageError [(null)] - 请求B022800HOW-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,724 [1] ERROR PageError [(null)] - 请求B02280085S-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,831 [1] ERROR PageError [(null)] - 请求B0FFGSCY15-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,941 [1] ERROR PageError [(null)] - 请求B022800QN3-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:37,997 [1] ERROR PageError [(null)] - 请求B0228004E2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,050 [1] ERROR PageError [(null)] - 请求B0228014HF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,122 [1] ERROR PageError [(null)] - 请求B0FFFD1NZR-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,229 [1] ERROR PageError [(null)] - 请求B0FFHH593T-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,283 [1] ERROR PageError [(null)] - 请求B022800I9Z-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,334 [1] ERROR PageError [(null)] - 请求B02280068B-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,390 [1] ERROR PageError [(null)] - 请求B0228006D7-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,486 [1] ERROR PageError [(null)] - 请求B0228006C2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,587 [1] ERROR PageError [(null)] - 请求B02280N8TQ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,705 [1] ERROR PageError [(null)] - 请求B022800KNV-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,814 [1] ERROR PageError [(null)] - 请求B022801M4G-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,901 [1] ERROR PageError [(null)] - 请求B0FFGJZC7C-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:38,971 [1] ERROR PageError [(null)] - 请求B022801LDV-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,081 [1] ERROR PageError [(null)] - 请求B022801HXO-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,173 [1] ERROR PageError [(null)] - 请求B022801KAU-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,266 [1] ERROR PageError [(null)] - 请求B02280184R-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,346 [1] ERROR PageError [(null)] - 请求B022800JMB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,468 [1] ERROR PageError [(null)] - 请求B022800KNW-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,567 [1] ERROR PageError [(null)] - 请求B022800HRV-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,616 [1] ERROR PageError [(null)] - 请求B0FFFTTW89-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,706 [1] ERROR PageError [(null)] - 请求B022800HPB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,763 [1] ERROR PageError [(null)] - 请求B02280N950-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,867 [1] ERROR PageError [(null)] - 请求B022800HPN-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:39,970 [1] ERROR PageError [(null)] - 请求B0FFHBKS1G-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,023 [1] ERROR PageError [(null)] - 请求B0FFI2YPZ7-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,119 [1] ERROR PageError [(null)] - 请求B0FFG8T5XX-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,181 [1] ERROR PageError [(null)] - 请求B0FFJQ5K0M-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,311 [1] ERROR PageError [(null)] - 请求B0FFGIC9PN-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,403 [1] ERROR PageError [(null)] - 请求B0FFFE3YJU-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,500 [1] ERROR PageError [(null)] - 请求B0FFGNWOM4-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,612 [1] ERROR PageError [(null)] - 请求B0FFFE9R04-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,721 [1] ERROR PageError [(null)] - 请求B0FFGACN2G-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,780 [1] ERROR PageError [(null)] - 请求B022801L9M-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,879 [1] ERROR PageError [(null)] - 请求B0FFF4RKXT-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:40,994 [1] ERROR PageError [(null)] - 请求B0FFGA1BSF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,117 [1] ERROR PageError [(null)] - 请求B0FFFDZYJD-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,214 [1] ERROR PageError [(null)] - 请求B0FFG2XJBB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,270 [1] ERROR PageError [(null)] - 请求B022801G6F-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,395 [1] ERROR PageError [(null)] - 请求B0FFGJL3U8-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,470 [1] ERROR PageError [(null)] - 请求B0FFGBAZ7B-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,596 [1] ERROR PageError [(null)] - 请求B02280NHNK-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,724 [1] ERROR PageError [(null)] - 请求B0228019LD-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,803 [1] ERROR PageError [(null)] - 请求B0FFG07UL2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,871 [1] ERROR PageError [(null)] - 请求B022A01669-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:41,970 [1] ERROR PageError [(null)] - 请求B0FFGDX26I-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,036 [1] ERROR PageError [(null)] - 请求B022A00656-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,138 [1] ERROR PageError [(null)] - 请求B022A0O6AM-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,231 [1] ERROR PageError [(null)] - 请求B022A01DA4-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,325 [1] ERROR PageError [(null)] - 请求B022A0O6CF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,434 [1] ERROR PageError [(null)] - 请求B022A00E67-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,538 [1] ERROR PageError [(null)] - 请求B022A00F7E-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,636 [1] ERROR PageError [(null)] - 请求B022A02GIC-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,742 [1] ERROR PageError [(null)] - 请求B022A010F2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,851 [1] ERROR PageError [(null)] - 请求B022A00105-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:42,920 [1] ERROR PageError [(null)] - 请求B022A0O6SE-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:43,022 [1] ERROR PageError [(null)] - 请求B022A0O616-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:43,074 [1] ERROR PageError [(null)] - 请求B022A01FD5-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:43,178 [1] ERROR PageError [(null)] - 请求B022A00B38-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:43,275 [1] ERROR PageError [(null)] - 请求B022A02GIK-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:43,762 [1] ERROR PageError [(null)] - 请求B022A02286-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:43,878 [1] ERROR PageError [(null)] - 请求B0FFGWURFL-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:43,981 [1] ERROR PageError [(null)] - 请求B022A007AB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,073 [1] ERROR PageError [(null)] - 请求B0FFH36193-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,126 [1] ERROR PageError [(null)] - 请求B0FFGJR684-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,237 [1] ERROR PageError [(null)] - 请求B0FFGJ2MB7-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,290 [1] ERROR PageError [(null)] - 请求B022A00554-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,337 [1] ERROR PageError [(null)] - 请求B022A011BE-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,455 [1] ERROR PageError [(null)] - 请求B022A0O4XB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,560 [1] ERROR PageError [(null)] - 请求B022A01454-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,661 [1] ERROR PageError [(null)] - 请求B022A028UI-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,774 [1] ERROR PageError [(null)] - 请求B022A0O5AS-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,850 [1] ERROR PageError [(null)] - 请求B022A02GX2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:44,913 [1] ERROR PageError [(null)] - 请求B022A0OC6T-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,004 [1] ERROR PageError [(null)] - 请求B0FFKEV5AZ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,107 [1] ERROR PageError [(null)] - 请求B022A0O6DW-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,236 [1] ERROR PageError [(null)] - 请求B022A0O5A9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,336 [1] ERROR PageError [(null)] - 请求B022A0O6XF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,502 [1] ERROR PageError [(null)] - 请求B0236008NC-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,625 [1] ERROR PageError [(null)] - 请求B02360MK1M-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,703 [1] ERROR PageError [(null)] - 请求B0236001FF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,800 [1] ERROR PageError [(null)] - 请求B023600215-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,865 [1] ERROR PageError [(null)] - 请求B0236008IB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:45,965 [1] ERROR PageError [(null)] - 请求B023600W8D-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,062 [1] ERROR PageError [(null)] - 请求B023600214-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,166 [1] ERROR PageError [(null)] - 请求B023600212-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,269 [1] ERROR PageError [(null)] - 请求B023600OF6-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,325 [1] ERROR PageError [(null)] - 请求B0236008NO-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,434 [1] ERROR PageError [(null)] - 请求B023600LX9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,552 [1] ERROR PageError [(null)] - 请求B02360MF2U-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,652 [1] ERROR PageError [(null)] - 请求B023600VZX-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,750 [1] ERROR PageError [(null)] - 请求B023600SDP-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,848 [1] ERROR PageError [(null)] - 请求B0236005CF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:46,916 [1] ERROR PageError [(null)] - 请求B0236002NZ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,007 [1] ERROR PageError [(null)] - 请求B023600SCQ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,103 [1] ERROR PageError [(null)] - 请求B0236005AY-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,203 [1] ERROR PageError [(null)] - 请求B023600SNJ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,304 [1] ERROR PageError [(null)] - 请求B02360MFAS-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,397 [1] ERROR PageError [(null)] - 请求B0FFH7BI3X-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,494 [1] ERROR PageError [(null)] - 请求B0236003VS-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,560 [1] ERROR PageError [(null)] - 请求B023600200-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,619 [1] ERROR PageError [(null)] - 请求B02360MF3D-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,738 [1] ERROR PageError [(null)] - 请求B02360MSUH-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,836 [1] ERROR PageError [(null)] - 请求B0FFJA185M-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:47,899 [1] ERROR PageError [(null)] - 请求B0FFG7R3O4-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:48,246 [1] ERROR PageError [(null)] - 请求B0228014J2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:48,402 [1] ERROR PageError [(null)] - 请求B022A0OAG0-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:48,821 [1] ERROR PageError [(null)] - 请求B0FFH0OV8F-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:48,966 [1] ERROR PageError [(null)] - 请求B0FFG0ODK0-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:49,137 [1] ERROR PageError [(null)] - 请求B0FFF4SS6S-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:51,347 [1] ERROR PageError [(null)] - 请求B02280N6VS-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:52,752 [1] ERROR PageError [(null)] - 请求B02290I9F9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:52,829 [1] ERROR PageError [(null)] - 请求B02290HXZA-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:52,881 [1] ERROR PageError [(null)] - 请求B022900307-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:52,983 [1] ERROR PageError [(null)] - 请求B022900840-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,084 [1] ERROR PageError [(null)] - 请求B022900878-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,202 [1] ERROR PageError [(null)] - 请求B02290I28B-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,255 [1] ERROR PageError [(null)] - 请求B02290I9C9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,358 [1] ERROR PageError [(null)] - 请求B02290I28D-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,465 [1] ERROR PageError [(null)] - 请求B0FFFGVZ9O-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,563 [1] ERROR PageError [(null)] - 请求B022900ROI-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,617 [1] ERROR PageError [(null)] - 请求B0FFFYLQBI-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,707 [1] ERROR PageError [(null)] - 请求B02290I9S8-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,775 [1] ERROR PageError [(null)] - 请求B02290HVIC-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,828 [1] ERROR PageError [(null)] - 请求B02290I9SE-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:53,928 [1] ERROR PageError [(null)] - 请求B02290I8VJ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:54,039 [1] ERROR PageError [(null)] - 请求B02290I6XG-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:54,374 [1] ERROR PageError [(null)] - 请求B022900NHL-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:54,423 [1] ERROR PageError [(null)] - 请求B0FFFSACUK-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:54,546 [1] ERROR PageError [(null)] - 请求B0FFGN3WKX-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:54,612 [1] ERROR PageError [(null)] - 请求B0229156MZ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:54,748 [1] ERROR PageError [(null)] - 请求B0FFIA5GRT-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:54,851 [1] ERROR PageError [(null)] - 请求B0FFGBMHCM-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:54,903 [1] ERROR PageError [(null)] - 请求B0FFGBKJPO-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,021 [1] ERROR PageError [(null)] - 请求B0FFF2GRQJ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,075 [1] ERROR PageError [(null)] - 请求B0FFG0MNGW-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,186 [1] ERROR PageError [(null)] - 请求B0FFH2Q560-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,247 [1] ERROR PageError [(null)] - 请求B0FFHWYOE9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,344 [1] ERROR PageError [(null)] - 请求B022800N4U-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,505 [1] ERROR PageError [(null)] - 请求B0FFHDN9Y5-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,557 [1] ERROR PageError [(null)] - 请求B022801LB0-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,654 [1] ERROR PageError [(null)] - 请求B022800HOW-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,754 [1] ERROR PageError [(null)] - 请求B02280085S-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,850 [1] ERROR PageError [(null)] - 请求B0FFGSCY15-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:55,952 [1] ERROR PageError [(null)] - 请求B022800QN3-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:56,060 [1] ERROR PageError [(null)] - 请求B0228004E2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:56,182 [1] ERROR PageError [(null)] - 请求B0228014HF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:56,258 [1] ERROR PageError [(null)] - 请求B0FFFD1NZR-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:56,428 [1] ERROR PageError [(null)] - 请求B0FFHH593T-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:56,534 [1] ERROR PageError [(null)] - 请求B022800I9Z-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:56,630 [1] ERROR PageError [(null)] - 请求B02280068B-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:56,728 [1] ERROR PageError [(null)] - 请求B0228006D7-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:56,840 [1] ERROR PageError [(null)] - 请求B0228006C2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,000 [1] ERROR PageError [(null)] - 请求B02280N8TQ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,162 [1] ERROR PageError [(null)] - 请求B022800KNV-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,214 [1] ERROR PageError [(null)] - 请求B022801M4G-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,314 [1] ERROR PageError [(null)] - 请求B0FFGJZC7C-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,364 [1] ERROR PageError [(null)] - 请求B022801LDV-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,423 [1] ERROR PageError [(null)] - 请求B022801HXO-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,471 [1] ERROR PageError [(null)] - 请求B022801KAU-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,585 [1] ERROR PageError [(null)] - 请求B02280184R-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,725 [1] ERROR PageError [(null)] - 请求B022800JMB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,809 [1] ERROR PageError [(null)] - 请求B022800KNW-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:49:57,865 [1] ERROR PageError [(null)] - 请求B022800HRV-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:02,091 [1] ERROR PageError [(null)] - 请求B0FFFTTW89-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:06,295 [1] ERROR PageError [(null)] - 请求B022800HPB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:06,356 [1] ERROR PageError [(null)] - 请求B02280N950-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:06,419 [1] ERROR PageError [(null)] - 请求B022800HPN-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:10,628 [1] ERROR PageError [(null)] - 请求B0FFHBKS1G-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:14,841 [1] ERROR PageError [(null)] - 请求B0FFI2YPZ7-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:19,050 [1] ERROR PageError [(null)] - 请求B0FFG8T5XX-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:23,311 [1] ERROR PageError [(null)] - 请求B0FFJQ5K0M-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:33,772 [1] ERROR PageError [(null)] - 请求B0FFGIC9PN-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:33,852 [1] ERROR PageError [(null)] - 请求B0FFFE3YJU-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:38,126 [1] ERROR PageError [(null)] - 请求B0FFGNWOM4-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:38,183 [1] ERROR PageError [(null)] - 请求B0FFFE9R04-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:38,248 [1] ERROR PageError [(null)] - 请求B0FFGACN2G-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:38,302 [1] ERROR PageError [(null)] - 请求B022801L9M-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:38,404 [1] ERROR PageError [(null)] - 请求B0FFF4RKXT-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:38,469 [1] ERROR PageError [(null)] - 请求B0FFGA1BSF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:46,843 [1] ERROR PageError [(null)] - 请求B0FFFDZYJD-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:46,895 [1] ERROR PageError [(null)] - 请求B0FFG2XJBB-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:46,951 [1] ERROR PageError [(null)] - 请求B022801G6F-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:55,358 [1] ERROR PageError [(null)] - 请求B0FFGJL3U8-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:50:55,418 [1] ERROR PageError [(null)] - 请求B0FFGBAZ7B-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:06,423 [1] ERROR PageError [(null)] - 请求B02280NHNK-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:18,931 [1] ERROR PageError [(null)] - 请求B0228019LD-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:21,092 [1] ERROR PageError [(null)] - 请求B0FFG07UL2-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:21,146 [1] ERROR PageError [(null)] - 请求B022A01669-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:21,199 [1] ERROR PageError [(null)] - 请求B0FFGDX26I-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:23,325 [1] ERROR PageError [(null)] - 请求B022A00656-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:27,547 [1] ERROR PageError [(null)] - 请求B022A0O6AM-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:29,714 [1] ERROR PageError [(null)] - 请求B022A01DA4-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:29,787 [1] ERROR PageError [(null)] - 请求B022A0O6CF-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:33,992 [1] ERROR PageError [(null)] - 请求B022A00E67-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:38,197 [1] ERROR PageError [(null)] - 请求B022A00F7E-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:51:40,342 [1] ERROR PageError [(null)] - 请求B022A02GIC-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+--------------------------网站运行日志--------------------------
+
+2019-04-07 19:53:42,462 [1] ERROR PageError [(null)] - 请求B02290I9F9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:42,646 [1] ERROR PageError [(null)] - 请求B02290HXZA-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:42,742 [1] ERROR PageError [(null)] - 请求B022900307-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:44,899 [1] ERROR PageError [(null)] - 请求B022900840-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:47,041 [1] ERROR PageError [(null)] - 请求B022900878-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:49,189 [1] ERROR PageError [(null)] - 请求B02290I28B-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:51,323 [1] ERROR PageError [(null)] - 请求B02290I9C9-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:57,604 [1] ERROR PageError [(null)] - 请求B02290I28D-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:57,690 [1] ERROR PageError [(null)] - 请求B0FFFGVZ9O-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:57,800 [1] ERROR PageError [(null)] - 请求B022900ROI-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:57,917 [1] ERROR PageError [(null)] - 请求B0FFFYLQBI-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:53:57,985 [1] ERROR PageError [(null)] - 请求B02290I9S8-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:00,133 [1] ERROR PageError [(null)] - 请求B02290HVIC-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:00,309 [1] ERROR PageError [(null)] - 请求B02290I9SE-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:00,375 [1] ERROR PageError [(null)] - 请求B02290I8VJ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:00,468 [1] ERROR PageError [(null)] - 请求B02290I6XG-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:04,710 [1] ERROR PageError [(null)] - 请求B022900NHL-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:04,792 [1] ERROR PageError [(null)] - 请求B0FFFSACUK-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:06,928 [1] ERROR PageError [(null)] - 请求B0FFGN3WKX-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:07,008 [1] ERROR PageError [(null)] - 请求B0229156MZ-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:07,069 [1] ERROR PageError [(null)] - 请求B0FFIA5GRT-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:09,214 [1] ERROR PageError [(null)] - 请求B0FFGBMHCM-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+2019-04-07 19:54:24,046 [1] ERROR PageError [(null)] - 请求B0FFGBKJPO-AOI数据：System.TypeInitializationException: “AoiPoiGet.JsonConverter”的类型初始值设定项引发异常。 ---> System.IO.FileLoadException: 未能加载文件或程序集“Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)
+   在 AoiPoiGet.JsonConverter..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 AoiPoiGet.JsonConverter.FromJson[T](String json)
+   在 AoiPoiGet.AOIAction.GetAoi(String id) 位置 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs:行号 211 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\AoiPoiGet\AOIAction.cs 211 
+
+--------------------------网站运行日志--------------------------
+
+

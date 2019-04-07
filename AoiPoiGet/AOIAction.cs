@@ -199,7 +199,8 @@ namespace AoiPoiGet
                             if (bo)
                             {
                                 //向cmd窗口发送输入信息
-                                p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://www.amap.com/place/B0FFG7R3O4" + "&exit");
+                                p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://www.amap.com/place/B0FFG7R3O4");
+                                p.StandardInput.WriteLine("exit");
                                 bo = false;
                             }
                         }
