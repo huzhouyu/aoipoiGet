@@ -68,7 +68,6 @@
   <ItemGroup>
     <Compile Include="AOIAction.cs" />
     <Compile Include="AppConst.cs" />
-    <Compile Include="ColorHelper.cs" />
     <Compile Include="HttpUtil.cs" />
     <Compile Include="JsonConverter.cs" />
     <Compile Include="Log.cs" />

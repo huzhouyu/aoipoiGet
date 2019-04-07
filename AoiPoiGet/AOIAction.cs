@@ -181,26 +181,37 @@ namespace AoiPoiGet
                     if (failDic[boo] > 0)
                     {
                         System.Diagnostics.Process[] processList = System.Diagnostics.Process.GetProcesses();
-                        var tmp = processList.Where(u => u.ProcessName.ToLower() == "iexplore");
-                        if (tmp.Count() <2)
+
+
+                        System.Diagnostics.Process p = new System.Diagnostics.Process();
+                        p.StartInfo.FileName = "cmd.exe";
+                        p.StartInfo.UseShellExecute = false;    //是否使用操作系统shell启动
+                        p.StartInfo.RedirectStandardInput = true;//接受来自调用程序的输入信息
+                        p.StartInfo.RedirectStandardOutput = true;//由调用程序获取输出信息
+                        p.StartInfo.RedirectStandardError = true;//重定向标准错误输出
+                        p.StartInfo.CreateNoWindow = true;//不显示程序窗口
+                        p.Start();//启动程序
+
+                        if(boo)
                         {
-                            if(boo)
+                            if (bo)
                             {
-                                if (bo)
-                                {
-                                    Process.Start("iexplore.exe", "https://www.amap.com/place/B0FFG7R3O4");  //直接打开IE浏览器，打开指定页
-                                    bo = false;
-                                }
-                            }
-                            else
-                            {
-                                if (bo1)
-                                {
-                                    Process.Start("iexplore.exe", "https://ditu.amap.com/verify/?from=https%3A%2F%2Fditu.amap.com%2Fplace%2FB00154DR22&channel=newpc&uuid=1a982e5b-8a33-4753-9cd2-900bcf8e6c5c&url=/detail/get/detail?id=B00154DR22");  //直接打开IE浏览器，打开指定页
-                                    bo1 = false;
-                                }
+                                //向cmd窗口发送输入信息
+                                p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://www.amap.com/place/B0FFG7R3O4" + "&exit");
+                                bo = false;
                             }
                         }
+                        else
+                        {
+                            if (bo1)
+                            {
+                                //向cmd窗口发送输入信息
+                                p.StandardInput.WriteLine($@"python {AppDomain.CurrentDomain.BaseDirectory}破解极验滑动验证码完整代码.py https://ditu.amap.com/search?query=酒店&city=310000" + "&exit");
+                                bo1 = false;
+                            }
+                        }
+
+                        Thread.Sleep(30000);
                     }
                     httpUrl = string.Format(urlList[random.Next(urlList.Count)], id);
                     Console.WriteLine($"第{i}次尝试查询，请用web访问 https://ditu.amap.com/search?query=酒店&city=310000 和 https://www.amap.com  完成认证");
