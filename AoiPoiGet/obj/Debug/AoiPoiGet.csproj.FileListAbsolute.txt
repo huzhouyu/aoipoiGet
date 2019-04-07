@@ -37,3 +37,4 @@ D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\AoiPoiGet.csproj.CoreComp
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\AoiPoiGet.csproj.CopyComplete
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\AoiPoiGet.exe
 D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\AoiPoiGet.pdb
+D:\代码项目文件夹\AoiPoiGet\AoiPoiGet\obj\Debug\AoiPoiGet.csprojFakesResolveAssemblyReference.cache

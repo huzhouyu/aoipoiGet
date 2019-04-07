@@ -17,7 +17,7 @@ namespace AoiPoiGet
         static List<string> allIds = new List<string>();
         static List<string> urlList = new List<string> { "https://ditu.amap.com/detail/get/detail?id={0}", "https://www.amap.com/detail/get/detail?id={0}" };
         static int isNowDoYanzhengMa = 0;
-
+        static int nowIndex = 0;
         public static void GetAOI(object obj)
         {
             var tmp = (ThreadPameM)obj;
@@ -184,7 +184,7 @@ namespace AoiPoiGet
                 failDic.Add(true, 0);
                 failDic.Add(false, 0);
                 Random random = new Random();
-                string httpUrl = string.Format(urlList[random.Next(urlList.Count)], id);
+                string httpUrl = string.Format(urlList[nowIndex], id);
                 string s = HttpUtil.HTTPAOIGet(httpUrl);
                 int i = 1;
                 bool bo = true;
@@ -209,6 +209,7 @@ namespace AoiPoiGet
                         {
                             if (isNowDoYanzhengMa % 10 == 0)
                             {
+                                nowIndex = (nowIndex + 1) % 2;
                                 isNowDoYanzhengMa = 0;
                                 if (boo)
                                 {
@@ -239,7 +240,7 @@ namespace AoiPoiGet
                         }
 
                     }
-                    httpUrl = string.Format(urlList[random.Next(urlList.Count)], id);
+                    httpUrl = string.Format(urlList[nowIndex], id);
                     Console.WriteLine($"第{i}次尝试查询，请用web访问 https://ditu.amap.com/search?query=酒店&city=310000 和 https://www.amap.com  完成认证");
                     i++;
                     Thread.Sleep(2000);
