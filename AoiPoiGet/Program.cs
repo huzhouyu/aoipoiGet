@@ -66,6 +66,8 @@ namespace AoiPoiGet
             }
             if (AppConst.IsDownAOI == "是")
             {
+                ThreadPool.SetMaxThreads(5, 5);
+                List<WaitHandle> waitHandles =new List<WaitHandle>();
                 Console.WriteLine("开始下载AOI数据.....");
                 for (int i = 0; i < AppConst.DownAOITimes; i++)
                 {
@@ -82,7 +84,15 @@ namespace AoiPoiGet
                                 //下载AOI数据
                                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - -");
                                 Console.WriteLine(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country));
-                                AOIAction.GetAOI(fileName, city, scene);
+                                if (waitHandles.Count > 40)
+                                {
+                                    WaitHandle.WaitAll(waitHandles.ToArray());
+                                    waitHandles = new List<WaitHandle>();
+                                }
+                                AutoResetEvent wh = new AutoResetEvent(false);
+                                ThreadPameM pameM = new ThreadPameM() { FilePath = fileName, Wait = wh };
+                                ThreadPool.QueueUserWorkItem(new WaitCallback(AOIAction.GetAOI), pameM);
+                                waitHandles.Add(wh);
                             }
                             catch (Exception ex)
                             {
@@ -92,7 +102,8 @@ namespace AoiPoiGet
                         }
                     }
                 }
-
+                WaitHandle.WaitAll(waitHandles.ToArray());
+                waitHandles = new List<WaitHandle>();
                 for (int i = 0; i < AppConst.CalDownAOITimes; i++)
                 {
                     foreach (Scenes scene in scens)
@@ -107,7 +118,15 @@ namespace AoiPoiGet
                                 //下载AOI数据
                                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - -");
                                 Console.WriteLine(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country));
-                                AOIAction.GetAOIDtl(fileName,city,scene);
+                                if (waitHandles.Count > 40)
+                                {
+                                    WaitHandle.WaitAll(waitHandles.ToArray());
+                                    waitHandles = new List<WaitHandle>();
+                                }
+                                AutoResetEvent wh = new AutoResetEvent(false);
+                                ThreadPameM pameM = new ThreadPameM() { FilePath = fileName, Wait = wh };
+                                ThreadPool.QueueUserWorkItem(new WaitCallback(AOIAction.GetAOIDtl), pameM);
+                                waitHandles.Add(wh);
                             }
                             catch (Exception ex)
                             {
@@ -117,6 +136,7 @@ namespace AoiPoiGet
                         }
                     }
                 }
+                WaitHandle.WaitAll(waitHandles.ToArray());
                 int allCount = 0;
                 foreach (Scenes scene in scens)
                 {
@@ -130,7 +150,7 @@ namespace AoiPoiGet
                             //下载AOI数据
                             Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - -");
                             Console.WriteLine(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country));
-                            allCount+= AOIAction.TongJiAOIDtl(fileName, city, scene);
+                            allCount+= AOIAction.TongJiAOIDtl(fileName);
                         }
                         catch (Exception ex)
                         {

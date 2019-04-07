@@ -74,6 +74,7 @@
     <Compile Include="Model\AOI.cs" />
     <Compile Include="Model\City.cs" />
     <Compile Include="Model\POI.cs" />
+    <Compile Include="Model\ThreadPameM.cs" />
     <Compile Include="POIAction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

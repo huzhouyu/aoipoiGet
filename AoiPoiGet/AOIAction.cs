@@ -16,8 +16,10 @@ namespace AoiPoiGet
         static List<string> allIds = new List<string>();
         static List<string> urlList = new List<string> { "https://ditu.amap.com/detail/get/detail?id={0}", "https://www.amap.com/detail/get/detail?id={0}" };
         public static int OverTimes = 1;
-        public static void GetAOI(string fileName, Citys city, Scenes scene)
+        public static void GetAOI(object obj)
         {
+            var tmp = (ThreadPameM)obj;
+            string fileName = tmp.FilePath;
             try
             {
                 string poiFileName = fileName.Replace("-AOI", "");
@@ -59,14 +61,18 @@ namespace AoiPoiGet
             }
             catch (Exception ex)
             {
-                new Log().PageLog.Error(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据：{6}", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country, ex));
+                //new Log().PageLog.Error(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据：{6}", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country, ex));
             }
+            tmp.Wait.Set();
         }
 
 
 
-        public static void GetAOIDtl(string fileName, Citys city, Scenes scene)
+        public static void GetAOIDtl(object obj)
         {
+
+            var tmp = (ThreadPameM)obj;
+            string fileName = tmp.FilePath;
             try
             {
                 if (!File.Exists(fileName))
@@ -90,13 +96,15 @@ namespace AoiPoiGet
             }
             catch (Exception ex)
             {
-                new Log().PageLog.Error(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据：{6}", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country, ex));
+                //new Log().PageLog.Error(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据：{6}", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country, ex));
             }
+            tmp.Wait.Set();
         }
 
 
-        public static int TongJiAOIDtl(string fileName, Citys city, Scenes scene)
+        public static int TongJiAOIDtl(object filePath)
         {
+            string fileName = filePath.ToString();
             try
             {
                 if (!File.Exists(fileName))
@@ -139,7 +147,7 @@ namespace AoiPoiGet
             }
             catch (Exception ex)
             {
-                new Log().PageLog.Error(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据：{6}", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country, ex));
+                //new Log().PageLog.Error(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据：{6}", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country, ex));
             }
             return 0;
         }
