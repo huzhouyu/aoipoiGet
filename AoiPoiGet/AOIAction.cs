@@ -196,7 +196,7 @@ namespace AoiPoiGet
 
                         if(boo)
                         {
-                            if (bo)
+                            if (bo||i/4==0)
                             {
                                 bo = false;
                                 //向cmd窗口发送输入信息
@@ -206,7 +206,7 @@ namespace AoiPoiGet
                         }
                         else
                         {
-                            if (bo1)
+                            if (bo1 || i / 4 == 0)
                             {
                                 bo1 = false;
                                 //向cmd窗口发送输入信息
