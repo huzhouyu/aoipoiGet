@@ -117,6 +117,7 @@ namespace AoiPoiGet
                         }
                     }
                 }
+                int allCount = 0;
                 foreach (Scenes scene in scens)
                 {
                     foreach (Citys city in citys)
@@ -129,7 +130,7 @@ namespace AoiPoiGet
                             //下载AOI数据
                             Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - -");
                             Console.WriteLine(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country));
-                            AOIAction.TongJiAOIDtl(fileName, city, scene);
+                            allCount+= AOIAction.TongJiAOIDtl(fileName, city, scene);
                         }
                         catch (Exception ex)
                         {
@@ -138,6 +139,8 @@ namespace AoiPoiGet
 
                     }
                 }
+                Console.WriteLine($"本次共找到AOI数据{allCount}条");
+                Console.ReadKey();
 
             }
 

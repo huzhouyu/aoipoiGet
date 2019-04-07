@@ -95,7 +95,7 @@ namespace AoiPoiGet
         }
 
 
-        public static void TongJiAOIDtl(string fileName, Citys city, Scenes scene)
+        public static int TongJiAOIDtl(string fileName, Citys city, Scenes scene)
         {
             try
             {
@@ -135,11 +135,13 @@ namespace AoiPoiGet
                     }
                     sw.Flush();
                 }
+                return listAoi.Count;
             }
             catch (Exception ex)
             {
                 new Log().PageLog.Error(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-AOI数据：{6}", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country, ex));
             }
+            return 0;
         }
 
 

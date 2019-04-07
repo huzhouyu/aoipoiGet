@@ -32,6 +32,7 @@ class HuXiu(object):
             self.analog_drag()
         except TypeError:
             self.driver.close()
+            self.driver.quit()
 
     def analog_drag(self):
         #鼠标移动到拖动按钮，显示出拖动图片
@@ -82,9 +83,11 @@ class HuXiu(object):
             else:
                 # 成功后输入手机号，发送验证码
                 self.driver.close()
+                self.driver.quit()
                 #self.register()
         except TypeError:
             self.driver.close()
+            self.driver.quit()
 
     # 获取图片和位置列表
     def get_image_url(self, xpath):
