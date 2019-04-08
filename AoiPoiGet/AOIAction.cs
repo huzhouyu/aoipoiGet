@@ -14,15 +14,30 @@ namespace AoiPoiGet
     public static class AOIAction
     {
         static object LockObj = new object();
-        static List<string> allIds = new List<string>();
+        static Dictionary<int,List<string>> allIds = new Dictionary<int, List<string>> ();
         static List<string> urlList = new List<string> { "https://ditu.amap.com/detail/get/detail?id={0}", "https://www.amap.com/detail/get/detail?id={0}" };
         static int isNowDoYanzhengMa = 0;
         static int nowIndex = 0;
         static bool isLock = false;
+        static object LockAddallIdsKey = new object();
         public static void GetAOI(object obj)
         {
             var tmp = (ThreadPameM)obj;
             string fileName = tmp.FilePath;
+            lock (LockAddallIdsKey)
+            {
+                try
+                {
+                    if (!allIds.ContainsKey(tmp.OverTimes))
+                    {
+                        allIds.Add(tmp.OverTimes, new List<string>());
+                    }
+                }
+                catch
+                {
+
+                }
+            }
             try
             {
                 string poiFileName = fileName.Replace("-AOI", "");
@@ -39,7 +54,9 @@ namespace AoiPoiGet
                     File.Create(fileName).Dispose();
                 if (File.Exists(tmpFile)&& IsAoiDataGood(fileName, tmp.OverTimes))
                 {
-                    allIds.AddRange(Getids(tmpFile));
+
+                    allIds[tmp.OverTimes].AddRange(Getids(tmpFile));
+  
                 }
                 else
                 {
@@ -47,9 +64,9 @@ namespace AoiPoiGet
                 }
                 foreach (string id in ids)
                 {
-                    if (allIds.Contains(id))
+                    if (allIds[tmp.OverTimes].Contains(id))
                         continue;
-                    allIds.Add(id);
+                    allIds[tmp.OverTimes].Add(id);
                     HttpUnit.Add(id);
                 }
                 if (HttpUnit.Count > 0)
