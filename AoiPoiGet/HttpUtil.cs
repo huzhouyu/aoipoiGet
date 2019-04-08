@@ -60,7 +60,7 @@ namespace AoiPoiGet
 
         public static string HTTPAOIGet(string url)
         {
-            Thread.Sleep(2);
+            Thread.Sleep(30);
             string s = "";
             try
             {

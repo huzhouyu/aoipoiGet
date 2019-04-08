@@ -18,6 +18,7 @@ namespace AoiPoiGet
         static List<string> urlList = new List<string> { "https://ditu.amap.com/detail/get/detail?id={0}", "https://www.amap.com/detail/get/detail?id={0}" };
         static int isNowDoYanzhengMa = 0;
         static int nowIndex = 0;
+        static bool isLock = false;
         public static void GetAOI(object obj)
         {
             var tmp = (ThreadPameM)obj;
@@ -185,6 +186,10 @@ namespace AoiPoiGet
                 failDic.Add(false, 0);
                 Random random = new Random();
                 string httpUrl = string.Format(urlList[nowIndex], id);
+                if (!isLock)
+                {
+                    nowIndex = (nowIndex + 1) % 2;
+                }
                 string s = HttpUtil.HTTPAOIGet(httpUrl);
                 int i = 1;
                 bool bo = true;
@@ -209,6 +214,7 @@ namespace AoiPoiGet
                         {
                             if (isNowDoYanzhengMa % 10 == 0)
                             {
+                                isLock = true;
                                 nowIndex = (nowIndex + 1) % 2;
                                 isNowDoYanzhengMa = 0;
                                 if (boo)
@@ -235,6 +241,7 @@ namespace AoiPoiGet
                                     }
                                 }
                                 Thread.Sleep(30000);
+                                isLock = false;
                             }
                             isNowDoYanzhengMa++;
                         }

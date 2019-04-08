@@ -66,8 +66,8 @@ namespace AoiPoiGet
             }
             if (AppConst.IsDownAOI == "是")
             {
-                ThreadPool.SetMaxThreads(5, 10);
-                ThreadPool.SetMinThreads(3, 10);
+                ThreadPool.SetMaxThreads(1, 1);
+                ThreadPool.SetMinThreads(1, 1);
                 List<WaitHandle> waitHandles =new List<WaitHandle>();
                 Console.WriteLine("开始下载AOI数据.....");
                 for (int i = 0; i < AppConst.DownAOITimes; i++)
