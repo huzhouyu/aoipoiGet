@@ -90,7 +90,6 @@
     <Folder Include="Img\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\破解极验滑动验证码完整代码.py" />
     <Content Include="scripts\meadco-scriptx-1.5.1.js" />
     <Content Include="scripts\MeadCo.ScriptX\jQuery-MeadCo.ScriptX.Print.UI.js" />
     <Content Include="scripts\MeadCo.ScriptX\meadco-core.js" />

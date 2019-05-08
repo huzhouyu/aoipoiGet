@@ -14,14 +14,30 @@ namespace AoiPoiGet
     public static class AOIAction
     {
         static object LockObj = new object();
-        static List<string> allIds = new List<string>();
+        static Dictionary<int, List<string>> allIds = new Dictionary<int, List<string>>();
         static List<string> urlList = new List<string> { "https://ditu.amap.com/detail/get/detail?id={0}", "https://www.amap.com/detail/get/detail?id={0}" };
         static int isNowDoYanzhengMa = 0;
         static int nowIndex = 0;
+        static bool isLock = false;
+        static object LockAddallIdsKey = new object();
         public static void GetAOI(object obj)
         {
             var tmp = (ThreadPameM)obj;
             string fileName = tmp.FilePath;
+            lock (LockAddallIdsKey)
+            {
+                try
+                {
+                    if (!allIds.ContainsKey(tmp.OverTimes))
+                    {
+                        allIds.Add(tmp.OverTimes, new List<string>());
+                    }
+                }
+                catch
+                {
+
+                }
+            }
             try
             {
                 string poiFileName = fileName.Replace("-AOI", "");
@@ -29,16 +45,19 @@ namespace AoiPoiGet
                 {
                     tmp.Wait.Set();
                     return;
-                }                List<string> ids = Getids(poiFileName);
+                }
+                List<string> ids = Getids(poiFileName);
                 List<string> needWre = Getids(poiFileName);
                 List<string> HttpUnit = new List<string>();
                 var tmpFile = fileName.Replace("-AOI", $"-OVER{tmp.OverTimes}");
                 //创建文件
                 if (!File.Exists(fileName))
                     File.Create(fileName).Dispose();
-                if (File.Exists(tmpFile)&& IsAoiDataGood(fileName, tmp.OverTimes))
+                if (File.Exists(tmpFile) && IsAoiDataGood(fileName, tmp.OverTimes))
                 {
-                    allIds.AddRange(Getids(tmpFile));
+
+                    allIds[tmp.OverTimes].AddRange(Getids(tmpFile));
+
                 }
                 else
                 {
@@ -46,16 +65,16 @@ namespace AoiPoiGet
                 }
                 foreach (string id in ids)
                 {
-                    if (allIds.Contains(id))
+                    if (allIds[tmp.OverTimes].Contains(id))
                         continue;
-                    allIds.Add(id);
+                    allIds[tmp.OverTimes].Add(id);
                     HttpUnit.Add(id);
                 }
                 if (HttpUnit.Count > 0)
                 {
                     RequestAOI(HttpUnit, fileName, needWre);
                 }
-                using (StreamWriter sw=new StreamWriter(tmpFile))
+                using (StreamWriter sw = new StreamWriter(tmpFile))
                 {
                     foreach (var item in needWre)
                     {
@@ -122,17 +141,17 @@ namespace AoiPoiGet
                     File.Create(tmpFile).Dispose();
                 var ids = GetAOIDATA(tmpFile);
                 List<string> HttpUnit = new List<string>();
-                List<AOIDATA> listAoi = new List<AOIDATA>();
+                List<AOIHelp> listAoi = new List<AOIHelp>();
                 foreach (string poiid in ids.Keys)
                 {
                     var tmp = ids[poiid];
-                    var groupByTmp= tmp.GroupBy(u => u.shape);
+                    var groupByTmp = tmp.GroupBy(u => u.shape);
                     var aoi = tmp.FirstOrDefault();
                     int maxCount = 0;
                     foreach (var item in groupByTmp)
                     {
 
-                        if(maxCount< item.Count())
+                        if (maxCount < item.Count())
                         {
                             maxCount = item.Count();
                             aoi = item.FirstOrDefault();
@@ -140,7 +159,7 @@ namespace AoiPoiGet
                     }
                     listAoi.Add(aoi);
                 }
-                using(StreamWriter sw=new StreamWriter(fileName))
+                using (StreamWriter sw = new StreamWriter(fileName))
                 {
                     foreach (var item in listAoi)
                     {
@@ -159,15 +178,15 @@ namespace AoiPoiGet
 
 
 
-        public static void RequestAOI(List<string> ids, string fileName,List<string> exit)
+        public static void RequestAOI(List<string> ids, string fileName, List<string> exit)
         {
             List<Model.AOI> list = new List<AOI>();
             for (var i = 0; i < ids.Count; i++)
             {
                 var a = GetAoi(ids[i]);
-                if (a == null) exit.RemoveAll(u=>u==ids[i]);
-                 Console.WriteLine($"当前查询了到第{i + 1}条，查询到有AOI的数据共{list.Count}条，共{ids.Count}条");
-                if (a==null||a.data.spec == null || a.data.spec.mining_shape == null || a.data.spec.mining_shape.shape == null)
+                if (a == null) exit.RemoveAll(u => u == ids[i]);
+                Console.WriteLine($"当前查询了到第{i + 1}条，查询到有AOI的数据共{list.Count}条，共{ids.Count}条");
+                if (a == null || a.data.spec == null || a.data.spec.mining_shape == null || a.data.spec.mining_shape.shape == null)
                     continue;
                 list.Add(a);
             }
@@ -185,6 +204,10 @@ namespace AoiPoiGet
                 failDic.Add(false, 0);
                 Random random = new Random();
                 string httpUrl = string.Format(urlList[nowIndex], id);
+                if (!isLock)
+                {
+                    nowIndex = (nowIndex + 1) % 2;
+                }
                 string s = HttpUtil.HTTPAOIGet(httpUrl);
                 int i = 1;
                 bool bo = true;
@@ -209,6 +232,7 @@ namespace AoiPoiGet
                         {
                             if (isNowDoYanzhengMa % 10 == 0)
                             {
+                                isLock = true;
                                 nowIndex = (nowIndex + 1) % 2;
                                 isNowDoYanzhengMa = 0;
                                 if (boo)
@@ -235,6 +259,7 @@ namespace AoiPoiGet
                                     }
                                 }
                                 Thread.Sleep(30000);
+                                isLock = false;
                             }
                             isNowDoYanzhengMa++;
                         }
@@ -246,7 +271,7 @@ namespace AoiPoiGet
                     Thread.Sleep(2000);
                     s = HttpUtil.HTTPAOIGet(httpUrl);
                 }
-                a =s!=""?JsonConverter.FromJson<Model.AOI>(s):null;
+                a = s != "" ? JsonConverter.FromJson<Model.AOI>(s) : null;
             }
             catch (Exception ex)
             {
@@ -282,34 +307,35 @@ namespace AoiPoiGet
                         s += a.data.@base.poiid + " ";
                         s += a.data.spec.mining_shape.area + " ";
                         s += wgs_loaction + " ";
+                        s += a.data.@base.name + " " + a.data.@base.city_name + " " + a.data.@base.address + " ";
                         s += AppConst.GetWGSPointStr(a.data.spec.mining_shape.shape) + "\r\n";
                         sb.Append(s);
                         con += 1;
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         new Log().PageLog.Error(string.Format("保存AOI数据：{0}", ex));
                     }
-                    }
+                }
                 Console.WriteLine(string.Format("下载{0}条数据", con));
-                    FileStream fs = File.OpenWrite(fileName);
-                    fs.Position = fs.Length;
-                    byte[] bytes = Encoding.UTF8.GetBytes(sb.ToString());
-                    fs.Write(bytes, 0, bytes.Length);
-                    fs.Dispose();
-                    fs.Close();
+                FileStream fs = File.OpenWrite(fileName);
+                fs.Position = fs.Length;
+                byte[] bytes = Encoding.UTF8.GetBytes(sb.ToString());
+                fs.Write(bytes, 0, bytes.Length);
+                fs.Dispose();
+                fs.Close();
             }
             catch (Exception ex)
             {
                 new Log().PageLog.Error(string.Format("保存AOI数据：{0}", ex));
             }
         }
-        public static bool IsAoiDataGood(string filePath,int OverTimes)
+        public static bool IsAoiDataGood(string filePath, int OverTimes)
         {
             StreamReader reader = File.OpenText(filePath);
-            var t= reader.ReadToEnd();
+            var t = reader.ReadToEnd();
             reader.Close();
-            bool b= t.Contains("{");
+            bool b = t.Contains("{");
             if (b)
             {
                 File.Delete(filePath);
@@ -338,9 +364,9 @@ namespace AoiPoiGet
         }
 
 
-        public static Dictionary<string,List<AOIDATA>> GetAOIDATA(string fileName)
+        public static Dictionary<string, List<AOIHelp>> GetAOIDATA(string fileName)
         {
-            Dictionary<string, List<AOIDATA>> ids = new Dictionary<string, List<AOIDATA>>();
+            Dictionary<string, List<AOIHelp>> ids = new Dictionary<string, List<AOIHelp>>();
             StreamReader reader = File.OpenText(fileName);
             string str = "";
             while ((str = reader.ReadLine()) != null)
@@ -348,15 +374,15 @@ namespace AoiPoiGet
                 if (str == null || str == "") continue;
                 char[] separator = new char[] { ' ' };
                 string[] arr = str.Split(separator, StringSplitOptions.RemoveEmptyEntries);
-                if (arr.Length > 3)
+                if (arr.Length > 6)
                 {
                     if (ids.Keys.Contains(arr[0]))
                     {
-                        ids[arr[0]].Add(new AOIDATA() { poiid = arr[0], area = arr[1], center = arr[2], shape = arr[3] });
+                        ids[arr[0]].Add(new AOIHelp(str));
                     }
                     else
                     {
-                        List<AOIDATA> oIDATAs = new List<AOIDATA>() { new AOIDATA() { poiid = arr[0], area = arr[1], center = arr[2], shape = arr[3] } };
+                        List<AOIHelp> oIDATAs = new List<AOIHelp>() { new AOIHelp(str) };
                         ids.Add(arr[0], oIDATAs);
                     }
                 }

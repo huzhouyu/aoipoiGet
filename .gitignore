@@ -3,3 +3,6 @@
 ################################################################################
 
 /AoiPoiGet/.vs/AoiPoiGet
+/AoiPoiGet/bin
+/AoiPoiGet/obj/Debug
+/AoiPoiGet/packages

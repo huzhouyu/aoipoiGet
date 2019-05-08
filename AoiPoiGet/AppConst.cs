@@ -15,6 +15,11 @@ namespace AoiPoiGet
         public readonly static string IsDownAOI = ConfigurationManager.AppSettings["IsDownAOI"];
         public readonly static int DownAOITimes =Convert.ToInt32(ConfigurationManager.AppSettings["DownAOITimes"]);
         public readonly static int CalDownAOITimes = Convert.ToInt32(ConfigurationManager.AppSettings["CalDownAOITimes"]);
+
+
+        public readonly static int AoiThreadTimes = Convert.ToInt32(ConfigurationManager.AppSettings["AoiThreadTimes"]);
+        public readonly static int AoiThreadSleepTime = Convert.ToInt32(ConfigurationManager.AppSettings["AoiThreadSleepTime"]);
+
         /// <summary>
         /// 获取地市配置文件
         /// </summary>

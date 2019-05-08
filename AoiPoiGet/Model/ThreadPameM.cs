@@ -12,5 +12,7 @@ namespace AoiPoiGet.Model
         public string FilePath { get; set; }
         public AutoResetEvent Wait { get; set; }
         public int OverTimes { get; set; }
+        public Citys city { get; set; }
+        public Scenes scene { get; set; }
     }
 }

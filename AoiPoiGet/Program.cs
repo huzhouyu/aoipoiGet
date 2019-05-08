@@ -27,6 +27,9 @@ namespace AoiPoiGet
             List<Scenes> scens = AppConst.GetConfigScenes();
             if (AppConst.IsDownPOI == "是")
             {
+                ThreadPool.SetMaxThreads(10, 10);
+                ThreadPool.SetMinThreads(5, 10);
+                List<WaitHandle> waitHandles = new List<WaitHandle>();
                 Console.WriteLine("开始下载POI数据.....");
                 foreach (Scenes scene in scens)
                 {
@@ -53,7 +56,15 @@ namespace AoiPoiGet
                             Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - ");
                             Console.WriteLine(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-POI数据", scene.l_class, scene.m_class, scene.s_class, city.Province, city.CityName, city.Country));
 
-                            new POIAction().DownPoiData(fileName, city, scene);
+                            if (waitHandles.Count > 40)
+                            {
+                                WaitHandle.WaitAll(waitHandles.ToArray());
+                                waitHandles = new List<WaitHandle>();
+                            }
+                            AutoResetEvent wh = new AutoResetEvent(false);
+                            ThreadPameM pameM = new ThreadPameM() { FilePath = fileName, Wait = wh, city=city,scene=scene };
+                            ThreadPool.QueueUserWorkItem(new WaitCallback(POIA.DownPoiData), pameM);
+                            waitHandles.Add(wh);
                         }
                         catch (Exception ex)
                         {
@@ -62,12 +73,17 @@ namespace AoiPoiGet
 
                     }
                 }
-               
+                if (waitHandles.Count != 0)
+                {
+                    WaitHandle.WaitAll(waitHandles.ToArray());
+                }
+                waitHandles = new List<WaitHandle>();
+
             }
             if (AppConst.IsDownAOI == "是")
             {
-                ThreadPool.SetMaxThreads(5, 10);
-                ThreadPool.SetMinThreads(3, 10);
+                ThreadPool.SetMaxThreads(AppConst.AoiThreadTimes, AppConst.AoiThreadTimes);
+                ThreadPool.SetMinThreads(AppConst.AoiThreadTimes, AppConst.AoiThreadTimes);
                 List<WaitHandle> waitHandles =new List<WaitHandle>();
                 Console.WriteLine("开始下载AOI数据.....");
                 for (int i = 0; i < AppConst.DownAOITimes; i++)
@@ -102,7 +118,10 @@ namespace AoiPoiGet
                         }
                     }
                 }
-                WaitHandle.WaitAll(waitHandles.ToArray());
+                if (waitHandles.Count != 0)
+                {
+                    WaitHandle.WaitAll(waitHandles.ToArray());
+                }
                 waitHandles = new List<WaitHandle>();
                 for (int i = 0; i < AppConst.CalDownAOITimes; i++)
                 {
@@ -136,7 +155,10 @@ namespace AoiPoiGet
                         }
                     }
                 }
-                WaitHandle.WaitAll(waitHandles.ToArray());
+                if (waitHandles.Count != 0)
+                {
+                    WaitHandle.WaitAll(waitHandles.ToArray());
+                }
                 int allCount = 0;
                 foreach (Scenes scene in scens)
                 {

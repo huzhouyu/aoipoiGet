@@ -7,6 +7,37 @@ using System.Text;
 
 namespace AoiPoiGet
 {
+
+    public static class POIA {
+
+        public static void DownPoiData(object obj)
+        {
+            var tmpobj = (ThreadPameM)obj;
+            try
+            {
+                //构造web服务的Url
+                string httpUrl = string.Format("https://restapi.amap.com/v3/place/text?key=a1cf3409aacac2f92df039ba818e42c5&keywords=&types={0}&city={1}&output=JSON&offset=20&page=1&extensions=all&citylimit=true", tmpobj.scene.code, tmpobj.city.adcode);
+
+                string s = HttpUtil.HTTPSGet(httpUrl);
+                while (s == "")
+                {
+                    s = HttpUtil.HTTPSGet(httpUrl);
+                }
+                POI p = JsonConverter.FromJson<Model.POI>(s);
+                new POIAction().SavePOIData(tmpobj.FilePath, tmpobj.city, tmpobj.scene, p.pois);
+                double Count = double.Parse(p.count);
+                if (Count > 20)
+                    new POIAction().GetPageData(tmpobj.FilePath, tmpobj.city, tmpobj.scene, Count);
+            }
+            catch (Exception ex)
+            {
+                new Log().PageLog.Error(string.Format("请求{0}-{1}-{2}-{3}-{4}-{5}-POI数据：{6}", tmpobj.scene.l_class, tmpobj.scene.m_class, tmpobj.scene.s_class, tmpobj.city.Province, tmpobj.city.CityName, tmpobj.city.Country, ex));
+            }
+            tmpobj.Wait.Set();
+        }
+
+    }
+
     public class POIAction
     {
 
@@ -44,6 +75,7 @@ namespace AoiPoiGet
                 for (int i = 2; i <= pageSize; i++)
                 {
                     string httpUrl = string.Format("https://restapi.amap.com/v3/place/text?key=a1cf3409aacac2f92df039ba818e42c5&keywords=&types={0}&city={1}&output=JSON&offset=20&page={2}&extensions=all&citylimit=true", scene.code, city.adcode, i);
+                    Console.WriteLine(httpUrl);
                     string s = HttpUtil.HTTPSGet(httpUrl);
                     while (s == "")
                     {
